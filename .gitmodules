@@ -1,0 +1,6 @@
+[submodule "michi-helper-frontend"]
+	path = michi-helper-frontend
+	url = https://github.com/arag0re/michi-helper-frontend
+[submodule "michi-helper-backend"]
+	path = michi-helper-backend
+	url = https://github.com/arag0re/michi-helper-backend
