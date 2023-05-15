@@ -30,7 +30,7 @@ services:
          BACKEND_PORT: 3001
       restart: always
       build: 
-         context: ./backend
+         context: ./michi-helper-backend
       ports:
         - 3001:3001
       networks:
@@ -48,7 +48,7 @@ services:
          NODE_ENV: development
       restart: always
       build:
-         context: ./frontend
+         context: ./michi-helper-frontend
       ports:
         - 3000:3000
         - 8097:8097
